@@ -1,0 +1,14 @@
+#include<iostream> 
+#include<math.h> 
+#include<locale> 
+using namespace std; 
+int main ( ) 
+{ 
+int a=2; 
+for(int i=2;i<98;i+=5); 
+{ 
+    a=a+i; 
+} 
+cout<<a<<endl; 
+    return 0; 
+}
